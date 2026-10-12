@@ -1,0 +1,15 @@
+{
+  "name": "FC SIGNAL LAB",
+  "short_name": "FC SIGNAL",
+  "description": "FC Online 공식 응답 스냅샷 기반 로컬 분석 시안",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0e11",
+  "theme_color": "#0e1215",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

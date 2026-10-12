@@ -1,0 +1,68 @@
+{
+ "note": "Official source binaries, binary-verified on import. Redistribution/retention rights unreviewed.",
+ "files": {
+  "18.png": {
+   "sha256": "96ab326dad0f78924eb3c4c8ebf33f70193c62223630f19e683550f391ecec87",
+   "bytes": 2894,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/countries/smallflags/18.png",
+   "imported_at": "2026-10-11T11:14:41.256457+00:00",
+   "permission": "review_before_public_release"
+  },
+  "54.png": {
+   "sha256": "b9d5991d731104cf5d07a064400d721f6bef0c232d03541e13ed28fa2c7104b2",
+   "bytes": 3845,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/countries/smallflags/54.png",
+   "imported_at": "2026-10-11T11:13:39.814844+00:00",
+   "permission": "review_before_public_release"
+  },
+  "38.png": {
+   "sha256": "a3eccd3cff0aac26a0527d8458a96349e84a41e9a62ac9b9f4f6b2e4697a91e2",
+   "bytes": 3331,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/countries/smallflags/38.png",
+   "imported_at": "2026-10-11T11:14:46.784198+00:00",
+   "permission": "review_before_public_release"
+  },
+  "52.png": {
+   "sha256": "c96fb7bc2ee7c8045fe8e6c4ceddf424a47197d22b74db1140954d90db460c28",
+   "bytes": 3103,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/countries/smallflags/52.png",
+   "imported_at": "2026-10-11T11:13:50.641727+00:00",
+   "permission": "review_before_public_release"
+  },
+  "45.png": {
+   "sha256": "de875889b160fb91b69932cc74ab4ac10fcd5afb9523e1da20704e7484020767",
+   "bytes": 3255,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/countries/smallflags/45.png",
+   "imported_at": "2026-10-11T11:14:35.841607+00:00",
+   "permission": "review_before_public_release"
+  },
+  "136.png": {
+   "sha256": "fe54974b1d6a2493d33c701948fabe3ae1504d0bb169575c92309542330bb4f6",
+   "bytes": 3191,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/countries/smallflags/136.png",
+   "imported_at": "2026-10-11T11:14:01.473739+00:00",
+   "permission": "review_before_public_release"
+  },
+  "14.png": {
+   "sha256": "4c1e7bbc4e949c2326f7a80b868335471bd1ccf32ef12b82633085e7e1d04794",
+   "bytes": 3059,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/countries/smallflags/14.png",
+   "imported_at": "2026-10-11T11:14:23.808674+00:00",
+   "permission": "review_before_public_release"
+  },
+  "27.png": {
+   "sha256": "0442f79bee626f75714f6c471b44f16024793a6b1853bb9dae58a98aa21176f1",
+   "bytes": 2898,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/countries/smallflags/27.png",
+   "imported_at": "2026-10-11T11:14:12.311110+00:00",
+   "permission": "review_before_public_release"
+  },
+  "7.png": {
+   "sha256": "631fdd61a1dd864c78e68cdb68985630337ee60f490c739e12da78a4ee2f2882",
+   "bytes": 2895,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/countries/smallflags/7.png",
+   "imported_at": "2026-10-11T11:14:29.192049+00:00",
+   "permission": "review_before_public_release"
+  }
+ }
+}

@@ -1,0 +1,225 @@
+{
+  "source": "fco.dn.nexoncdn.co.kr official trait icons",
+  "icons": {
+    "2개의 심장": {
+      "file": "assets/traits/trait_icon_55.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_55.png",
+      "sha256": "363fee31e5aeaef1f6b1a0bc337c455019490c1ea9b8b6cbaaec642fe8e37b95",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "GK 멀리 던지기": {
+      "file": "assets/traits/trait_icon_21.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_21.png",
+      "sha256": "38968090cf5232d96c799c03eb6bfc49e0a371584f4209db31c21b52b7b2ef87",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "GK 소극적 크로스 수비": {
+      "file": "assets/traits/trait_icon_48.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_48.png",
+      "sha256": "5444929654c240e69657353cc9033155b523e291eea91dada685ae01168305e1",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "GK 침착한 1:1 수비": {
+      "file": "assets/traits/trait_icon_23.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_23.png",
+      "sha256": "8d79850a78630282b79ac7840c9323cba1aeb0d8d44099d623e58516d318438d",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "강철몸": {
+      "file": "assets/traits/trait_icon_05.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_05.png",
+      "sha256": "51cb49bdd1291b619eb7cbe9888c261d5e7f891f917b8d012f5d166719d70c2b",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "긴 패스 선호": {
+      "file": "assets/traits/trait_icon_15.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_15.png",
+      "sha256": "76696a3c05e08b5d0e682dd8856a4ee4240a62d55ab02edc3682dce9253b6141",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "라인 브레이커": {
+      "file": "assets/traits/trait_icon_52.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_52.png",
+      "sha256": "534971452279e98b83fa40ed6e3e93b0b59bb125f22b661d48bd3b41f26ff51a",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "스피드 드리블러": {
+      "file": "assets/traits/trait_icon_17.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_17.png",
+      "sha256": "d8750af663dca8fbfc28b6bfcca9fa4e6b1d7a320fbdc29947b0dc42238cc33c",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "슬라이딩 태클 선호": {
+      "file": "assets/traits/trait_icon_07.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_07.png",
+      "sha256": "70cf329263be1bf3e39be035216c4a2c9073d0a8e7702e4d0535ee8e1e34fe5e",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "승부욕": {
+      "file": "assets/traits/trait_icon_28.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_28.png",
+      "sha256": "8d6d50468a8406573ee560af2e489837514484c90a0826547bda7570832bf0e2",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "아웃사이드 슈팅/크로스": {
+      "file": "assets/traits/trait_icon_25.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_25.png",
+      "sha256": "885823a7c644a8a4b97eaa570279fc713ca293a9ef9750356ab68f78d0c21999",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "아크로바틱 피니셔": {
+      "file": "assets/traits/trait_icon_50.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_50.png",
+      "sha256": "b7203c9f9b21e7ac427dabbeeb33a10061524efeea480548d9b58bb72c8d7d91",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "얼리 크로스 선호": {
+      "file": "assets/traits/trait_icon_12.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_12.png",
+      "sha256": "7886e010c99c3d3f5a5a9cab6e2a718de658bcb99b76205a5c16cc776fcc96de",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "예리한 감아차기": {
+      "file": "assets/traits/trait_icon_13.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_13.png",
+      "sha256": "0004873d2dbd954f7a6207339842b2283255ef3d0918198a6a00669ca4084f2f",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "와일드 태클러": {
+      "file": "assets/traits/trait_icon_53.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_53.png",
+      "sha256": "8a8ab5bdb95f6919a548b49f1f956da1271eb9471ff079e6f874524696da380f",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "유리몸": {
+      "file": "assets/traits/trait_icon_04.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_04.png",
+      "sha256": "a542ea1aa06800dcb1cf12144f5855e471e80a754d8c4a7a4af8fd5b24f60b62",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "중거리 슛 선호": {
+      "file": "assets/traits/trait_icon_16.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_16.png",
+      "sha256": "08068ba519edfe4d22ef294a2f03e8e8f1b69a17388ff0ab7a6dbdc95fec21b1",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "테크니컬 드리블러": {
+      "file": "assets/traits/trait_icon_42.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_42.png",
+      "sha256": "a1198c268cf4396ff1909cfa3d311af1b8f2268f7c583a39cf1f3954c7ebbe2c",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "파워 헤더": {
+      "file": "assets/traits/trait_icon_22.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_22.png",
+      "sha256": "29c1ad6a2100fc0c8f679e6b61d28d4c96a174e3b2d49458400492e7d4211967",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "패스 마스터": {
+      "file": "assets/traits/trait_icon_27.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_27.png",
+      "sha256": "13080a7ceab9bcfac73922b527b8f817ae64eb65fadd7b820b2cfd038e3eccec",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "플레이 메이커": {
+      "file": "assets/traits/trait_icon_18.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_18.png",
+      "sha256": "11e9e25c86e9d245eeba765e04fa9d58a6ff6fece059c4848a859ffc8f587ab5",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "화려한 개인기": {
+      "file": "assets/traits/trait_icon_14.png",
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/traits/trait_icon_14.png",
+      "sha256": "984bcfa1946800fe51a99378ac1db614f047d9ae9ee1aba3e7552a0824b08fa5",
+      "width": 90,
+      "height": 90,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    }
+  }
+}

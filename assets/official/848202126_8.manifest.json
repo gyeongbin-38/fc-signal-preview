@@ -1,0 +1,19 @@
+{
+  "cardId": "848202126:8",
+  "enhancement": 8,
+  "compositeUrl": "assets/official/848202126_8.png",
+  "capture_mode": "transparent_dom_capture",
+  "capture_scale": 2,
+  "postprocess": "two-shot underpaint alpha diff (sibling pixels alpha-cleared); no artwork edits",
+  "sha256": "ae07dd02a45e19edcc05c5806e853d673cc23bcdf01b28cee095c6a517a5d08f",
+  "contextKey": "[\"848202126\",8,\"ST\",31,{\"ST\":135},{\"enhancement\":8,\"n1grow\":null,\"teamcolor_ids\":null,\"live_mode\":null,\"note\":\"n1strong만 지정한 공식 응답 스냅샷. 다른 기본 조건은 미검증. 추가 보너스를 합산하지 않음.\"}]",
+  "observed_salary": 31,
+  "observed_positions": {
+    "ST": 135
+  },
+  "source_url": "https://fconline.nexon.com/datacenter/PlayerInfo?spid=848202126&n1Strong=8",
+  "captured_at": "2026-10-11T11:24:41.877763+00:00",
+  "verification": "source_capture_reviewed",
+  "review_note": "2x transparent DOM capture; dark-composite visual check 14/14 clean, identity matches snapshot",
+  "in_game_pixel_parity": false
+}

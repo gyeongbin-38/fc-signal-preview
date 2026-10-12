@@ -1,0 +1,131 @@
+{
+  "source": "official CDN binary-verified",
+  "files": {
+    "p863229558.png": {
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p863229558.png?rd=202610110620",
+      "sha256": "263f313afbd393cd647cd0322fbafc6fe96c2e6d6a241997e01c17b6ca00922b",
+      "width": 256,
+      "height": 256,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "p851247851.png": {
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p851247851.png?rd=202610110620",
+      "sha256": "faa1c1aa727db62084b06b7c147f391c2f2a1db327501c30cd1698d5b165cfe0",
+      "width": 256,
+      "height": 256,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "p210514_25.png": {
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p210514_25.png?rd=202610110620",
+      "sha256": "7e38063e55600897ed7a3981242f15a3a88932865bb381d99971661e1491bd67",
+      "width": 256,
+      "height": 256,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "p247090_25.png": {
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p247090_25.png?rd=202610110620",
+      "sha256": "08287c4ef309898abd3d93f38cfb32697a1d6dd524ade32c44ca0e6cf92f815d",
+      "width": 256,
+      "height": 256,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "p848189505_25.png": {
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p848189505_25.png?rd=202610110620",
+      "sha256": "94069688a9ef2186cbbfadfa85877041d5fcb1cfbab10723608309c4f31b4b74",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "p848208722_25.png": {
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p848208722_25.png?rd=202610110620",
+      "sha256": "ddc1b6e3054f27909a20b515c610b0fd64eda96473fa06c5f73e50776345425a",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "p848232756_25.png": {
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p848232756_25.png?rd=202610110620",
+      "sha256": "9db264a6f2623a7a62985cd13983fa88b88942cddb2bdb7c2b8939ff7ebdc534",
+      "width": 256,
+      "height": 256,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "p848241096_25.png": {
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p848241096_25.png?rd=202610110620",
+      "sha256": "fcb78f93ddab67aff59a9aa4d51ea2c647b5a14702c41eafda138ecbb44f82ef",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "p239231_25.png": {
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p239231_25.png?rd=202610110620",
+      "sha256": "883bceb2fbe503abe01531f79924a55ada1d8d6adcecacc29a52babde213e221",
+      "width": 256,
+      "height": 256,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "p848202126_25.png": {
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p848202126_25.png?rd=202610110620",
+      "sha256": "e68e34ca5143f59a9c9f752e145adda6d0e9875a61cdf59c11d04a43326e1162",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "p192119_25.png": {
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p192119_25.png?rd=202610110620",
+      "sha256": "e487074c59b82642145c6d1388e8e3add0959138b8bf572e4914d32da4423ad5",
+      "width": 256,
+      "height": 256,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "p863226161.png": {
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p863226161.png?rd=202610110620",
+      "sha256": "a0d9b6d0586e10bdf192241dd99416c2c2735983fc87cd05c53f1c051d66d454",
+      "width": 256,
+      "height": 256,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "p868222481.png": {
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p868222481.png?rd=202610110620",
+      "sha256": "795e4c08d09d06df0a22b5c5a6f0b84fb1fdd6ba3c353316f38022bd47715274",
+      "width": 256,
+      "height": 256,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "p863210514.png": {
+      "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p863210514.png?rd=202610110620",
+      "sha256": "a2443f8b1258ccb3ae68f2e2995a8f079446228bfe785f63cdba14d250717f07",
+      "width": 256,
+      "height": 256,
+      "transparent": true,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    }
+  }
+}

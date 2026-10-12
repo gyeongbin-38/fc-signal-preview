@@ -1,0 +1,68 @@
+{
+  "source": "official CDN binary-verified",
+  "files": {
+    "ptg.png": {
+      "source_url": "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/new/season/ptg.png",
+      "sha256": "866b13ef200bb493fcd985f60505559c2ce6c3561f75b248b8a395b76d83e16b",
+      "width": 30,
+      "height": 24,
+      "transparent": false,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "25dp.png": {
+      "source_url": "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/new/season/25dp.png",
+      "sha256": "845056e57a3d01dc05ce567477873e71675dd4cb4362cae7ee85a76356615d4e",
+      "width": 30,
+      "height": 24,
+      "transparent": false,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "dcb.png": {
+      "source_url": "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/new/season/dcb.png",
+      "sha256": "6fe3a355239093629e99d531485eadbe4c1a46b091ccd405dbce243e87c3b823",
+      "width": 30,
+      "height": 24,
+      "transparent": false,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "ch.png": {
+      "source_url": "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/new/season/ch.png",
+      "sha256": "15ced7bcf9e5647f64eb8cb56dd6ea42e72cf4f54bbe889beecae984c1d5eb20",
+      "width": 30,
+      "height": 24,
+      "transparent": false,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "ws.png": {
+      "source_url": "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/new/season/ws.png",
+      "sha256": "1fca709a8ccf7e0d2ceee624cc14580e73930fcf8f9c65b9b0bf78a768697c94",
+      "width": 30,
+      "height": 24,
+      "transparent": false,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "cu.png": {
+      "source_url": "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/new/season/cu.png",
+      "sha256": "48ebcd44789cb8a51bc13542a48d693d8111c282efa9ee24485e40a315d9bf38",
+      "width": 30,
+      "height": 24,
+      "transparent": false,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    },
+    "26fsl.png": {
+      "source_url": "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/new/season/26fsl.png",
+      "sha256": "b719cba7b1e936777af93665f1a4d4a054691a68ab4a28124e7d8322fa9b99c8",
+      "width": 30,
+      "height": 24,
+      "transparent": false,
+      "verification": "binary_verified",
+      "permission": "review_before_public_release"
+    }
+  }
+}

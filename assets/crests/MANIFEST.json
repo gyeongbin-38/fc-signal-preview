@@ -1,0 +1,61 @@
+{
+ "note": "Official source binaries, binary-verified on import. Redistribution/retention rights unreviewed.",
+ "files": {
+  "l21.png": {
+   "sha256": "cf282f2af94f1ce6cae7a5df05d54e217ac00e45757296e4929f8326c8f734af",
+   "bytes": 8129,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/crests/light/small/l21.png",
+   "imported_at": "2026-10-11T11:14:23.681344+00:00",
+   "permission": "review_before_public_release"
+  },
+  "l13.png": {
+   "sha256": "64cacd8455fdc65cc68adce3e9ad7f91ab0c0820245a90ecff164363c92fdf2f",
+   "bytes": 8412,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/crests/light/small/l13.png",
+   "imported_at": "2026-10-11T11:14:12.234547+00:00",
+   "permission": "review_before_public_release"
+  },
+  "l241.png": {
+   "sha256": "790fc85c83cffd1b224a86a4303cb8323b749186c06ab831babf6747207f2802",
+   "bytes": 5881,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/crests/light/small/l241.png",
+   "imported_at": "2026-10-11T11:14:46.651984+00:00",
+   "permission": "review_before_public_release"
+  },
+  "l5.png": {
+   "sha256": "07f3a37756203e3b8c65fe1fa59acbc5ef2786d197319aec4ed10f8ae9370881",
+   "bytes": 8148,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/crests/light/small/l5.png",
+   "imported_at": "2026-10-11T11:14:17.963703+00:00",
+   "permission": "review_before_public_release"
+  },
+  "l115841.png": {
+   "sha256": "74a7a10003715dfa020e4fbe1bf53d3441bdcec873cca9517f1b8f7e1fa6ec55",
+   "bytes": 3891,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/crests/light/small/l115841.png",
+   "imported_at": "2026-10-11T11:13:55.939031+00:00",
+   "permission": "review_before_public_release"
+  },
+  "l112139.png": {
+   "sha256": "79d043495d3f2bf659c59a598960ce51c0b003878b5ecf32672642443e9defde",
+   "bytes": 7545,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/crests/light/small/l112139.png",
+   "imported_at": "2026-10-11T11:14:01.376952+00:00",
+   "permission": "review_before_public_release"
+  },
+  "l131681.png": {
+   "sha256": "d92f80dc9179a07733dbcd5755008c70b46a55fc8ed9a04ddb0d1e47a2680631",
+   "bytes": 2919,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/crests/light/small/l131681.png",
+   "imported_at": "2026-10-11T11:14:06.815157+00:00",
+   "permission": "review_before_public_release"
+  },
+  "l240.png": {
+   "sha256": "15ba60539a85feecef02fe80629d69beccbedb67a4363f708c289f141a42d0c3",
+   "bytes": 3624,
+   "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/crests/light/small/l240.png",
+   "imported_at": "2026-10-11T11:14:35.707902+00:00",
+   "permission": "review_before_public_release"
+  }
+ }
+}

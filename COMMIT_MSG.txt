@@ -1,0 +1,10 @@
+squad slots v2 + advanced search filters
+
+- per-slot grade display select (1-13, tier-colored) applying official gradeData to OVR/salary/line averages; cleared on replace/remove, preserved via save/load/share/import/drag
+- FW/MF/DF/GK line-OVR chips, 7 bench slots, price hide toggle, flag+crest+season badge icons in slots and market rows
+- advanced filter panel: colored position chips, season badge grid, nation/club (+career), physical type, foot/skill, height/weight/birth/salary/OVR/BP ranges
+- fix: i18n ko nav restored; stale slot grade cleared on player replace
+
+Generated with [Devin](https://devin.ai)
+
+Co-Authored-By: Devin <158243242+devin-ai-integration[bot]@users.noreply.github.com>

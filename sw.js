@@ -2,7 +2,7 @@
    HTML is network-first so deploys propagate; same-origin snapshot assets are
    cache-first (immutable binaries). Offline falls back to cache throughout.
    Prices/stats never change offline; the snapshot is fixed. */
-const CACHE = 'fc-signal-v05-2';
+const CACHE = 'fc-signal-v05-3';
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.add('./')).then(() => self.skipWaiting())
@@ -21,6 +21,13 @@ self.addEventListener('fetch', e => {
       if (r.ok) { const copy = r.clone(); caches.open(CACHE).then(c => c.put(e.request, copy)); }
       return r;
     }).catch(() => caches.match(e.request).then(hit => hit || caches.match('./'))));
+    return;
+  }
+  if (u.pathname.endsWith('/catalog.json')) {
+    e.respondWith(fetch(e.request).then(r => {
+      if (r.ok) { const copy = r.clone(); caches.open(CACHE).then(c => c.put(e.request, copy)); }
+      return r;
+    }).catch(() => caches.match(e.request)));
     return;
   }
   if (!u.pathname.includes('/assets/') && !u.pathname.includes('/web/')) return;

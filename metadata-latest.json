@@ -1,0 +1,22 @@
+{
+  "fetched_at": "2026-10-15T02:41:02.626546+00:00",
+  "source_url": "https://fconline.nexon.com/squadmakerapi/SquadMakerBaseProc",
+  "request": {
+    "strMethod": "init"
+  },
+  "response_sha256": "5232c6623606317844f29aba0f94e510de536709005f009c3f5a49f9465a2a74",
+  "semantic_sha256": "84ead62e2d1d237b2b11f9f06943d932c909a6c4cd743eaf2e53cf89f6560fab",
+  "source_reported_at": null,
+  "seasons": 153,
+  "teamcolor_rules": 803,
+  "teamcolor_diff": {
+    "added": [],
+    "unavailable_candidates": [],
+    "changed": []
+  },
+  "new_season_ids": [],
+  "removed_candidates": [],
+  "changed_badges": [],
+  "new_players_complete": false,
+  "numeric_teamcolor_application": false
+}

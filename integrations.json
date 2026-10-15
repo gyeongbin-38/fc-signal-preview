@@ -1,0 +1,72 @@
+{
+  "schema_version": "open-metadata/1",
+  "attribution": "Data based on NEXON Open API",
+  "fetched_at": "2026-10-15T08:18:38+00:00",
+  "refresh_due_at": "2026-11-14T08:18:38+00:00",
+  "connections": [
+    {
+      "name": "spid",
+      "url": "https://open.api.nexon.com/static/fconline/meta/spid.json",
+      "count": 88359,
+      "sha256": "9a3f11be7d2d3bebef4122fdcc214a334c18341b276aaa929884bcf9f2fd182b",
+      "fetched_at": "2026-10-15T08:18:38+00:00",
+      "source_reported_at": null,
+      "parser_version": "open-metadata/1",
+      "authentication_sent": false
+    },
+    {
+      "name": "seasonid",
+      "url": "https://open.api.nexon.com/static/fconline/meta/seasonid.json",
+      "count": 153,
+      "sha256": "563b46345ecbbb31c754376a652eef068848572482e75e113efd97d2a83e38c2",
+      "fetched_at": "2026-10-15T08:18:38+00:00",
+      "source_reported_at": null,
+      "parser_version": "open-metadata/1",
+      "authentication_sent": false
+    },
+    {
+      "name": "spposition",
+      "url": "https://open.api.nexon.com/static/fconline/meta/spposition.json",
+      "count": 29,
+      "sha256": "92de94b58e7c9675789a7536e27d4b2249b78cf70235bd2880290399b99e7e6e",
+      "fetched_at": "2026-10-15T08:18:38+00:00",
+      "source_reported_at": null,
+      "parser_version": "open-metadata/1",
+      "authentication_sent": false
+    },
+    {
+      "name": "matchtype",
+      "url": "https://open.api.nexon.com/static/fconline/meta/matchtype.json",
+      "count": 9,
+      "sha256": "69b30dec777d5e89886823d836db3943f7dc8b638446d2d720369f64c6062686",
+      "fetched_at": "2026-10-15T08:18:38+00:00",
+      "source_reported_at": null,
+      "parser_version": "open-metadata/1",
+      "authentication_sent": false
+    },
+    {
+      "name": "division",
+      "url": "https://open.api.nexon.com/static/fconline/meta/division.json",
+      "count": 21,
+      "sha256": "006c3a7d093cdb9d3c2e77ef9630ce4af0b75d4be9f5433018cedba7861281b0",
+      "fetched_at": "2026-10-15T08:18:38+00:00",
+      "source_reported_at": null,
+      "parser_version": "open-metadata/1",
+      "authentication_sent": false
+    },
+    {
+      "name": "division-volta",
+      "url": "https://open.api.nexon.com/static/fconline/meta/division-volta.json",
+      "count": 13,
+      "sha256": "df12c109c0f423304d72aac93a5ff8cfdf0cb13b4e9def2fa6e769e2b84eefb1",
+      "fetched_at": "2026-10-15T08:18:38+00:00",
+      "source_reported_at": null,
+      "parser_version": "open-metadata/1",
+      "authentication_sent": false
+    }
+  ],
+  "live_ingame_price_connected": false,
+  "account_match_api": "not_connected_credentials_required",
+  "google_login": "not_live_verified",
+  "remote_database": "not_connected"
+}

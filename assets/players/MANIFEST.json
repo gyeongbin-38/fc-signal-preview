@@ -64,5 +64,115 @@
     ],
     "verification": "original_binary_verified",
     "rights": "private prototype retention; public redistribution unreviewed"
+  },
+  "100000041": {
+    "file": "assets/players/p100000041.png",
+    "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p100000041.png?rd=202610150520",
+    "sha256": "e596ae661c7ab37aec512ced8f8edec1a2a32e0050388accd4f202ae47a99f7b",
+    "dimensions": [
+      256,
+      256
+    ],
+    "verification": "original_binary_verified",
+    "rights": "private prototype retention; public redistribution unreviewed"
+  },
+  "100000488": {
+    "file": "assets/players/p100000488.png",
+    "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p100000488.png?rd=202610150520",
+    "sha256": "c19561a758854a79c0e038a390c4739340710e0c87291a56b6f2d49900eee644",
+    "dimensions": [
+      256,
+      256
+    ],
+    "verification": "original_binary_verified",
+    "rights": "private prototype retention; public redistribution unreviewed"
+  },
+  "100001040": {
+    "file": "assets/players/p100001040.png",
+    "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p100001040.png?rd=202610150520",
+    "sha256": "8aff02bc8276c769d3e4393d9673f05b8da603b62144ae4208c9396b32fa4b3b",
+    "dimensions": [
+      256,
+      256
+    ],
+    "verification": "original_binary_verified",
+    "rights": "private prototype retention; public redistribution unreviewed"
+  },
+  "100001041": {
+    "file": "assets/players/p100001041.png",
+    "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p100001041.png?rd=202610150530",
+    "sha256": "9d7962338f5491d7ba4c40225cbd68b7fa13a0dc9fd50539981798a401f6dcf7",
+    "dimensions": [
+      256,
+      256
+    ],
+    "verification": "original_binary_verified",
+    "rights": "private prototype retention; public redistribution unreviewed"
+  },
+  "100001088": {
+    "file": "assets/players/p100001088.png",
+    "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p100001088.png?rd=202610150520",
+    "sha256": "9aa9d77c51744bef78778c51393c40c53de11a411c21dc9b7ce284690d0be5ea",
+    "dimensions": [
+      256,
+      256
+    ],
+    "verification": "original_binary_verified",
+    "rights": "private prototype retention; public redistribution unreviewed"
+  },
+  "100001109": {
+    "file": "assets/players/p100001109.png",
+    "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p100001109.png?rd=202610150520",
+    "sha256": "39fc92563717dd0f0f70ba746efa411ef05ff0ab083c568f54e5349a3a9d0580",
+    "dimensions": [
+      256,
+      256
+    ],
+    "verification": "original_binary_verified",
+    "rights": "private prototype retention; public redistribution unreviewed"
+  },
+  "100001114": {
+    "file": "assets/players/p100001114.png",
+    "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p100001114.png?rd=202610150520",
+    "sha256": "856455d34a14698760cda9a07865fb72582d3c4b71b7d647f2796ce58610f948",
+    "dimensions": [
+      256,
+      256
+    ],
+    "verification": "original_binary_verified",
+    "rights": "private prototype retention; public redistribution unreviewed"
+  },
+  "100001179": {
+    "file": "assets/players/p100001179.png",
+    "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p100001179.png?rd=202610150520",
+    "sha256": "99c120efa5dc48575e8a295e857a43292751b1b4adef43418317cfc9761a4ec2",
+    "dimensions": [
+      256,
+      256
+    ],
+    "verification": "original_binary_verified",
+    "rights": "private prototype retention; public redistribution unreviewed"
+  },
+  "100001183": {
+    "file": "assets/players/p100001183.png",
+    "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p100001183.png?rd=202610150530",
+    "sha256": "a22e63e74440b31e082260a3ae76e38cf131dea472b9ecb8a0e72aa4478a256e",
+    "dimensions": [
+      256,
+      256
+    ],
+    "verification": "original_binary_verified",
+    "rights": "private prototype retention; public redistribution unreviewed"
+  },
+  "100001397": {
+    "file": "assets/players/p100001397.png",
+    "source_url": "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p100001397.png?rd=202610150520",
+    "sha256": "ba12c60492038315ad6891c8387399fc4b56bf07ee6c961164afcbdfcb92e5d8",
+    "dimensions": [
+      256,
+      256
+    ],
+    "verification": "original_binary_verified",
+    "rights": "private prototype retention; public redistribution unreviewed"
   }
 }

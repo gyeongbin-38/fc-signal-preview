@@ -1,8 +1,11 @@
 'use strict';
 /* Static fallback parses shards off the UI thread. It never reads credentials. */
-self.onmessage=async e=>{const {id,index,seasons=[],query='',filters={},position='',grade=1,sort='ovr',offset=0,limit=48,details=[],maps={},aliases={},detailed=false,family=null}=e.data;try{
+const shardCache=new Map();let newestRequest=null;
+async function readShard(s){const key=s.file+'|'+s.sha256;if(!shardCache.has(key)){const job=(async()=>{const r=await fetch(s.file);if(!r.ok)throw Error('shard '+r.status);const raw=await r.arrayBuffer(),hash=[...new Uint8Array(await crypto.subtle.digest('SHA-256',raw))].map(b=>b.toString(16).padStart(2,'0')).join('');if(hash!==s.sha256)throw Error('shard integrity');return JSON.parse(new TextDecoder().decode(raw)).cards;})();shardCache.set(key,job);job.catch(()=>shardCache.delete(key));}return shardCache.get(key);}
+self.onmessage=async e=>{const {id,index,seasons=[],query='',filters={},position='',grade=1,sort='ovr',offset=0,limit=48,details=[],maps={},aliases={},detailed=false,family=null}=e.data;newestRequest=id;try{
  const selected=index.seasons.filter(s=>!seasons.length||seasons.includes(s.season));let cards=[];
- for(const s of selected){const r=await fetch(s.file);if(!r.ok)throw Error('shard '+r.status);const raw=await r.arrayBuffer(),hash=[...new Uint8Array(await crypto.subtle.digest('SHA-256',raw))].map(b=>b.toString(16).padStart(2,'0')).join('');if(hash!==s.sha256)throw Error('shard integrity');cards.push(...JSON.parse(new TextDecoder().decode(raw)).cards);}
+ for(let start=0;start<selected.length;start+=4){if(id!==newestRequest)return;const groups=await Promise.all(selected.slice(start,start+4).map(readShard));for(const rows of groups)cards.push(...rows);}
+ if(id!==newestRequest)return;
  const norm=s=>String(s).normalize('NFKC').toLowerCase(),cho='ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ',initials=s=>[...s].map(c=>c.charCodeAt(0)>=44032&&c.charCodeAt(0)<=55203?cho[Math.floor((c.charCodeAt(0)-44032)/588)]:c).join('');
  const terms=norm(query).split(',').map(s=>s.trim()).filter(Boolean),byId=new Map(details.filter(p=>p&&p.enhancement===grade).map(p=>[String(p.spid),p]));
  const bp=r=>{const v=r.eachPrice?.[grade];return typeof v==='string'&&/^[1-9]\d{0,37}$/.test(v)?BigInt(v):null;},stats=p=>Object.fromEntries((p?.statDetail||[]).map(s=>[s.name,s.value])),pos=p=>p?.positionOvrs||p?.positions||{};
@@ -17,6 +20,8 @@ self.onmessage=async e=>{const {id,index,seasons=[],query='',filters={},position
   const ts=f.traits?.length?f.traits:f.trait?[f.trait]:[];if(ts.length&&!(f.traitMode==='OR'?ts.some(t=>p?.baseTraits?.includes(t)):ts.every(t=>p?.baseTraits?.includes(t))))return false;
   if(f.coreMin&&(!f.core?.length||!f.core.every(n=>m[n]!=null&&m[n]>=+f.coreMin)))return false;return true;});
  const score=r=>{const m=stats(byId.get(String(r.spid))),ns=filters.statNames||[];return ns.length&&ns.every(n=>m[n]!=null)?ns.reduce((a,n)=>a+m[n],0):-1;};
- cards.sort((a,b)=>{if(sort==='name')return a.name.localeCompare(b.name,'ko');if(sort==='salary')return (a.pay??999)-(b.pay??999);if(sort==='height')return (b.height??0)-(a.height??0);if(sort==='stats')return score(b)-score(a);if(sort==='position'){const x=pos(byId.get(String(a.spid)))[position],y=pos(byId.get(String(b.spid)))[position];return (y??-1)-(x??-1);}if(sort==='price'){const x=bp(a),y=bp(b);return x===null?y===null?0:1:y===null?-1:x<y?-1:x>y?1:0;}return (b.ovr??0)-(a.ovr??0);});
+ const pay=r=>byId.get(String(r.spid))?.salary??r.pay;
+ const compare=(a,b)=>{if(sort==='name')return a.name<b.name?-1:a.name>b.name?1:0;if(sort==='salary'){const x=pay(a),y=pay(b);return x==null?y==null?0:1:y==null?-1:x-y;}if(sort==='height')return (b.height??0)-(a.height??0);if(sort==='stats')return score(b)-score(a);if(sort==='position'){const x=pos(byId.get(String(a.spid)))[position],y=pos(byId.get(String(b.spid)))[position];return (y??-1)-(x??-1);}if(sort==='price'){const x=bp(a),y=bp(b);return x===null?y===null?0:1:y===null?-1:x<y?-1:x>y?1:0;}return (b.ovr??0)-(a.ovr??0);};
+ cards.sort((a,b)=>compare(a,b)||(String(a.spid)<String(b.spid)?-1:String(a.spid)>String(b.spid)?1:0));
  self.postMessage({id,cards:cards.slice(offset,offset+limit),count:cards.length});
  }catch(error){self.postMessage({id,error:error.message});}};
